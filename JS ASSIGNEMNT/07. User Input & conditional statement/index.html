@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User input & conditional statement</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Javascript Assignment</h1>
+    <form>
+      <section class="form">
+        <div class="part city">
+          <label for="city">What is your city</label>
+          <input
+            type="text"
+            id="city"
+            name="city"
+            placeholder="Enter Your City Name"
+          />
+        </div>
+        <div class="part gender">
+          <label for="gender">What is your gender</label>
+          <input
+            type="text"
+            id="gender"
+            name="gender"
+            placeholder="Enter Your Gender"
+          />
+        </div>
+        <div class="part traffic">
+          <label for="traffic">What is traffic light</label>
+          <input
+            type="text"
+            id="traffic"
+            name="traffic"
+            placeholder="Enter Your Traffic Name"
+          />
+        </div>
+        <div class="part fuel">
+          <label for="fuel">your car current fuel</label>
+          <input
+            type="number"
+            id="fuel"
+            name="fuel"
+            max="5"
+            placeholder="Enter Your fuel number"
+          />
+        </div>
+        <div class="part divison">
+          <label for="divisible">Enter a Number</label>
+          <input
+            type="number"
+            id="divisible"
+            name="divisible"
+            placeholder="Enter a Favoriate Number"
+          />
+        </div>
+        <div class="part temp">
+          <label for="temp">Enter room Tempertaure</label>
+          <input
+            type="number"
+            id="temp"
+            name="temp"
+            placeholder="Enter temperature"
+          />
+        </div>
+      </section>
+      <div class="button">
+        <button id="city-btn" class="btn">submit</button>
+      </div>
+    </form>
+
+    <section class="result-form">
+      <h2>RESULT</h2>
+      <div class="subject-name">
+        <label for="subject-name">subject name</label>
+        <input
+          type="text"
+          id="subject-name"
+          name="marks"
+          placeholder="Enter the subject name"
+        />
+      </div>
+      <div class="subject-mark">
+        <label for="subject-mark">subject marks</label>
+        <input
+          type="number"
+          id="subject-mark"
+          name="subject-mark"
+          placeholder="enter the subject marks"
+        />
+      </div>
+      <div class="result"></div>
+      <div class="button">
+        <button id="add" class="btn">Add</button>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

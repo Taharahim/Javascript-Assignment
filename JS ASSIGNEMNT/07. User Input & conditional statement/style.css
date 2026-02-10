@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --backgrount-color: #8100d1;
+  --primary-text: #b500b2;
+  --secondary-text: #ffa47f;
+  --button-color: #ff52a0;
+}
+
+body {
+  max-width: 1200px;
+  background-color: var(--backgrount-color);
+  text-align: center;
+  padding: 40px;
+  margin: 10px;
+}
+
+h1 {
+  color: var(--primary-text);
+  font-size: 28px;
+}
+h2 {
+  text-align: center;
+  color: var(--backgrount-color);
+  font-size: 25px;
+}
+p {
+  color: var(--secondary-text);
+  font-size: 20px;
+}
+form {
+  background-color: var(--primary-text);
+  max-width: 50vw;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  left: 200px;
+  top: 30px;
+}
+.form {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 20px;
+  gap: 35px;
+}
+label {
+  color: var(--secondary-text);
+  padding: 20px;
+  text-transform: capitalize;
+}
+input {
+  background-color: var(--button-color);
+  color: var(--primary-text);
+  margin: 5px;
+  border: 1px solid var(--backgrount-color);
+  border-radius: 25px;
+  padding: 15px 30px;
+  text-transform: capitalize;
+}
+input:focus {
+  background-color: var(--button-color);
+  color: var(--primary-text);
+  margin: 5px;
+  border: 1px solid var(--primary-text);
+  border-radius: 25px;
+  padding: 15px 30px;
+}
+.part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.btn {
+  background-color: var(--button-color);
+  color: var(--primary-text);
+  margin: 5px;
+  border: 1px solid var(--primary-text);
+  border-radius: 25px;
+  padding: 15px 30px;
+}
+
+.result-form {
+  padding: 40px;
+  border: 1px solid var(--button-color);
+  background-color: var(--button-color);
+  border-radius: 25px;
+  position: relative;
+  left: 0px;
+  top: 78px;
+}
+
+.table {
+  background-color: var(--button-color);
+  color: var(--secondary-text);
+  width: 50vw;
+  height: 40vh;
+  margin: auto;
+  border: 1px solid var(--backgrount-color);
+  border-radius: 25px;
+  border-collapse: collapse;
+}
+
+table td,
+table th {
+  padding: 15px 20px;
+}
