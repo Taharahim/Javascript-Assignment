@@ -1,119 +1,115 @@
 * {
   margin: 0;
   padding: 0;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
 }
 
-:root{
---background-color:#BF4646;
---primary-color:#EDDCC6;
---secondary-color:#FFF4EA;
---button-color:#7EACB5;
-
+:root {
+  --background-color: #bf4646;
+  --primary-color: #eddcc6;
+  --secondary-color: #fff4ea;
+  --button-color: #7eacb5;
 }
 
 body {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
 }
 
-h1{
-    text-align: center;
-font-size: 32px;
-color: var(--primary-color);
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: var(--primary-color);
 }
 
-h2{
-    font-size: 28px;
-    color: var(--button-color);
+h2 {
+  font-size: 28px;
+  color: var(--button-color);
 }
-h3{
-    font-size: 24px;
-    color: var(--primary-color);
-}
-
-.multi-arr{
-    padding: 20px;
-    text-align: left;
-    font-size: 22px;
-    color: var(--secondary-color);
+h3 {
+  font-size: 24px;
+  color: var(--primary-color);
 }
 
-form{
-    text-align: center;
-    background-color: var(--secondary-color);
-    border: 1px solid var(--background-color);
-    border-radius: 25px;
-    display: grid;
-    grid-template-columns: repeat(2,1);
-    gap:20px;
+.multi-arr {
+  padding: 20px;
+  text-align: left;
+  font-size: 22px;
+  color: var(--secondary-color);
 }
 
-label{
-    color: var(--background-color);
-    font-size: 24px;
-    text-transform: uppercase;
-    margin: 10px;
-}
-input{
-    border:1px solid var(--primary-color);
-    padding:8px;
-    border-radius:25px;
-    background-color:var(--background-color);
-    color: var(--button-color);
-    text-transform: capitalize;
-    font-size: 24px;
+form {
+  text-align: center;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--background-color);
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1);
+  gap: 20px;
 }
 
-#submit{
-padding: 5px 10px;
-color:var(--primary-color);
-background-color: var(--background-color);
-font-size: 19px;
+label {
+  color: var(--background-color);
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+input {
+  border: 1px solid var(--primary-color);
+  padding: 8px;
+  border-radius: 25px;
+  background-color: var(--background-color);
+  color: var(--button-color);
+  text-transform: capitalize;
+  font-size: 24px;
 }
 
-.fruit{
-    
-    padding: 20px;
-    text-align:left;
-    font-size: 22px;
-    color: var(--secondary-color);
+#submit {
+  padding: 5px 10px;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  font-size: 19px;
 }
-.tabular{
-     padding: 20px;
-    text-align:left;
-    font-size: 22px;
-    color: var(--secondary-color);
-}
-.count{
-    
-    padding: 20px;
-    text-align:left;
-    font-size: 22px;
-    color: var(--secondary-color);
-}
-.arr2,.arr1{
-    
-    padding: 20px;
-    text-align:left;
-    font-size: 22px;
-    color: var(--secondary-color);
 
+.fruit {
+  padding: 20px;
+  text-align: left;
+  font-size: 22px;
+  color: var(--secondary-color);
 }
-#search{
-    
-    border:1px solid var(--primary-color);
-    padding:8px;
-    border-radius:25px;
-    background-color:var(--background-color);
-    color: var(--button-color);
-    text-transform: capitalize;
-    font-size: 24px;
+.tabular {
+  padding: 20px;
+  text-align: left;
+  font-size: 22px;
+  color: var(--secondary-color);
 }
-.found,.not-found{
-padding: 5px 10px;
-color:var(--primary-color);
-background-color: var(--background-color);
-font-size: 19px;
-margin: 19px;
+.count {
+  padding: 20px;
+  text-align: left;
+  font-size: 22px;
+  color: var(--secondary-color);
+}
+.arr2,
+.arr1 {
+  padding: 20px;
+  text-align: left;
+  font-size: 22px;
+  color: var(--secondary-color);
+}
+#search {
+  border: 1px solid var(--primary-color);
+  padding: 8px;
+  border-radius: 25px;
+  background-color: var(--background-color);
+  color: var(--button-color);
+  text-transform: capitalize;
+  font-size: 24px;
+}
+.found,
+.not-found {
+  padding: 5px 10px;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  font-size: 19px;
+  margin: 19px;
 }
