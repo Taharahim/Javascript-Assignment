@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+:root {
+  --background-color: #3d45aa;
+  --primary-color: #da3d20;
+  --secondary-color: #f8843f;
+  --button-color: #fff19b;
+}
+body {
+  background-color: var(--background-color);
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+#date {
+  background-color: var(--button-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+#msdate {
+  background-color: var(--button-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+#pastdate {
+  background-color: var(--button-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+#future-date {
+  background-color: var(--button-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+#future {
+  background-color: var(--button-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+#birthyear {
+  background-color: var(--button-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  color: var(--primary-color);
+}
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  background-color: var(--button-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 25px;
+}
+.part {
+  margin: 20px;
+  padding: 10px;
+}
+label {
+  text-transform: capitalize;
+  font-size: 23px;
+  color: var(--primary-color);
+  margin: 10px;
+}
+input {
+  font-size: 18px;
+  padding: 15px 30px;
+  border: 1px solid var(--primary-color);
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+#btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 25px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.bill {
+  font-size: 18px;
+  padding: 15px 30px;
+  border: 1px solid var(--primary-color);
+  border-radius: 25px;
+  background-color: var(--button-color);
+  color: var(--primary-color);
+  display: none;
+}

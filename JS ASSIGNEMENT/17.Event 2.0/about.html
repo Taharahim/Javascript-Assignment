@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <style>
+        :root{
+       --primary-color:#091413;
+       --secondary-color:#285A48;
+       --background-color:#408A71;
+       --button-color:#B0E4CC;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Tahoma, Verdana, sans-serif;
+        }
+        body{
+            background-color:var(--background-color);
+            max-width:1200px;
+            height: 100%;
+        }
+        .heading{
+            text-align: center;
+            font-weight: bolder;
+            color: var(--primary-color);
+            font-size:28px;
+            margin: 10px;
+        }
+        #mainpage{
+            text-decoration: none;
+            border:1px solid #B0E4CC;
+            border-radius: 15px;
+            font-size:20px;
+            padding: 15px 30px;
+            margin: 15px;
+            color: var(--primary-color);
+            background-color:var(--button-color);
+            text-align: center;
+        }
+        .center{
+            text-align: center;
+        }fieldset{
+            background-color: #408A71;
+            color: #091413;
+            margin: 10px;
+            width: 55vw;
+            height:auto;
+            font-size: 18px;
+            transform: translateX(150px);
+        }
+        section{
+            display: grid;
+        }
+        input{
+            border:1px solid #B0E4CC;
+            border-radius: 15px;
+            font-size:20px;
+            padding: 10px 20px;
+            margin: 5px;
+            color: var(--primary-color);
+            background-color:var(--button-color);
+            width: 35vw;
+            transform: translateX(168px);
+            text-align: center;
+        }
+        label{
+            padding: 10px 20px;
+            transform: translateX(150px);
+            color:var(--primary-color);
+            font-weight: bolder;
+            
+        }
+        legend{
+            text-align: center;
+            color: var(--primary-color);
+            font-size:27px;
+            font-weight: bolder;
+        }
+        #btn{
+            border:1px solid #B0E4CC;
+            border-radius: 15px;
+            font-size:20px;
+            padding: 15px 30px;
+            margin: 15px;
+            color: var(--primary-color);
+            background-color:var(--button-color);
+            text-align: center;
+        } table{
+                 background-color: #408A71;
+            color: #091413;
+            margin: 10px;
+             border:1px solid #B0E4CC;
+            border-radius: 15px;
+            font-size:20px;
+            gap:2px;
+            width: 80vw;
+            height:auto;
+         transform: translateX(150px);
+       
+        }
+        th{
+            text-align: center;
+            font-weight: bolder;
+            color: var(--primary-color);
+            font-size:20px;
+            margin: 10px;
+           
+        }
+        td{
+            text-align: center;
+            font-weight: bolder;
+            color: var(--primary-color);
+            font-size:20px;
+            margin: 10px;
+        }
+        .delete{
+            border:1px solid #B0E4CC;
+            border-radius: 15px;
+            font-size:20px;
+            padding: 15px 30px;
+            margin: 15px;
+            color: var(--primary-color);
+            background-color:var(--button-color);
+            text-align: center;
+        }
+        .edit{
+            border:1px solid #B0E4CC;
+            border-radius: 15px;
+            font-size:20px;
+            padding: 15px 30px;
+            margin: 15px;
+            color: var(--primary-color);
+            background-color:var(--button-color);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+<a href="index.html" id="mainpage">SIGN UP FORM</a>
+    </div>
+    <form id="student">
+        <Fieldset>
+
+            <legend>Student ID FORM</legend>
+            <section>
+                <label for="first-name">First Name</label>
+                <input type="text" name="firstname" id="first-name" placeholder="Enter Your First Name" required>
+                
+                <label for="last-name">Enter Your Last Name</label>
+                <input type="text" name="lastname" id="last-name" placeholder="Enter Your Last Name" required>
+            </section>
+            <section>
+                
+                <label for="email">Enter Your Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                
+                
+                <label for="password">Create a Password</label>
+                <input type="password" name="password" id="password" placeholder="Create a Password" required>
+            </section>
+            <div class="center">
+                <button type="submit" id="btn">Submit</button>
+            </div>
+        </Fieldset>
+        <div class="inform"></div>
+    </form>
+
+
+<script src="about.js"></script>
+</body>
+</html>
